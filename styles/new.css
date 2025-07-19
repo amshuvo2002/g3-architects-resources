@@ -24,6 +24,16 @@
  .bg-light{
   background-color: rgba(255, 144, 14, 0.18);
  }
+ .orenge-color {
+  color: #FF900E;
+ }
+ .text-bold{
+  font-weight: bold;
+ }
+ .text-meduim{
+  font-weight: 600;
+ }
+
  .all-btn{
   background-color: #FF900E;
   border: none;
@@ -32,6 +42,13 @@
   padding: 20px 25px;
   font-size: 1.25rem;
   font-weight: 600;
+ }
+ main{
+  max-width: 1440px;
+  margin: 0 auto ;
+ }
+ main > section{
+  margin-top: 130px;
  }
 /* header styles */
 
@@ -70,10 +87,54 @@
 .Banar-img{
     width: 100%;
   }
-
+  /* teams and futues */
+    .teams {
+      align-items: center;
+    }
+ .team-img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+ }
+ .our-fetures{
+  margin-left:  130px;
+  max-width: 530px;
+ }
+ .fetures-title {
+  font-size: 2.8rem;
+ }
+ /* facts- styles */
+ .facts{
+  border: 1px solid  #FF900E ;
+  width: 240px;
+  height: 240px;
+  border-radius: 8px;
+ }
+ .facts-contanier{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+ }
+    
 /* Small device */
 @media screen and (max-width: 576px) {
-  .navbar, .links{
+  .navbar,  
+  .teams {
     flex-direction: column;
   }
+  .team-img{
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .our-fetures{
+        margin-left: 20px;
+  }
 }
+/* Meduim device */
+@media screen and (min-width: 576px ) and (max-width:992px) {
+  .teams{
+    flex-direction: column;
+  }
+  .our-fetures{
+    margin: 50px auto;
+  }
+}
+  
