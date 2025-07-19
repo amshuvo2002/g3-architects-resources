@@ -103,6 +103,40 @@
  .fetures-title {
   font-size: 2.8rem;
  }
+ .future-card{
+  padding: 20px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06) ;
+  margin-bottom: 20px;
+  border-radius: 8px;
+ }
+ .Features{
+  gap: 140px;
+ }
+
+ .future-title .future-card{
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ }
+
+ #Long-bar{
+  border-left: solid 5px  #FF900E;
+  padding: 20px;
+ }
+
+ #exprince-box{
+  padding: 45px 42px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-left: -100px;
+  margin-top: -100px;
+ }
+ #exprince-year{
+  font-size: 4rem;
+  font-weight: 700;
+ }
+
  /* facts- styles */
  .facts{
   border: 1px solid  #FF900E ;
@@ -144,10 +178,14 @@
   .sponcer-company img{
     filter: grayscale(100%);
   }
+
+  
+ 
 /* Small device */
 @media screen and (max-width: 576px) {
   .navbar,  
-  .teams {
+  .teams,
+  .Features {
     flex-direction: column;
   }
   .team-img, 
@@ -168,10 +206,18 @@
       justify-items: center;
       gap: 50px;
     }
+    #exprince-box{
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+     .foot-text{
+      width: 100%;
+    }
 }
 /* Meduim device */
 @media screen and (min-width: 576px ) and (max-width:992px) {
-  .teams{
+  .teams,
+  .Features {
     flex-direction: column;
   }
   .our-fetures{
@@ -186,5 +232,12 @@
   .some-facts{
     justify-items: center;
   }
+   #exprince-box{
+      margin-top: 20px;
+      margin-left: 20px;
+    }
+    .foot-text{
+      width: 100%;
+    }
 }
   
