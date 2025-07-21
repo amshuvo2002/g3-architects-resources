@@ -223,8 +223,9 @@ footer{
       margin-left: 20px;
     }
      footer{
-     width: 90%;
-     margin: 50px 0px 50px 20px ;
+     width: 80%;
+     margin: 50px 0px 50px 50px;
+     
 }
 }
      
@@ -252,12 +253,10 @@ footer{
       margin-top: 20px;
       margin-left: 20px;
     }
+    
     footer{
-      margin: 50px auto;
-    }
-    footer{
-     width: 90%;
-     margin: 50px 0px 50px 45px ;
+     width: 80%;
+     margin: 50px 0px 50px 50px;
 }
     
 }
