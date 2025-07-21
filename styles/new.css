@@ -184,7 +184,9 @@ footer{
   background-color: antiquewhite;
   border-radius: 8px;
   text-align:center;
-  margin:50px 0px 50px 100px;
+  /* margin:50px 0px 50px 100px; */
+  margin: 50px auto;
+
 }
 .foot-text{
   padding-top: 45px;
